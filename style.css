@@ -586,6 +586,7 @@ a, button {
   .search-bar-wrapper input {
     width: calc(100% - 20px);
     min-width: unset;
+    background: #fff;
   }
 
   .mobile-menu-header {
