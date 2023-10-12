@@ -137,6 +137,7 @@ a, button {
   position: absolute;
   top: 100%;
   left: -10px;
+  pointer-events: none;
 }
 
 .dd-nav a {
@@ -160,6 +161,7 @@ a, button {
 .has-dd:hover .dd-nav a {
   opacity: 1;
   transform: unset;
+  pointer-events: all;
 }
 
 .has-dd:hover img {
